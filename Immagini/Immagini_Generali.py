@@ -153,10 +153,8 @@ img_r = ruota_sx(img3)
 
 
 """N.B. Più volte richiamo la funz. e più volte mi ruota l'img di 90°
-img_r1 = ruota_sx(img3)
-img_r2 = ruota_sx(img_r1)
-img_r3 = ruota_sx(img_r2)
-images.visd(img_r3)
+Nel seguente modo, richiamando la funzione 3 volte, la foto è ruotata di 90° rispetto alla sua forma normale verticale
+images.visd(ruota_sx(ruota_sx(ruota_sx(img3))))
 """
 
 
