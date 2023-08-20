@@ -152,6 +152,28 @@ img_r = ruota_sx(img3)
 #images.visd(img_r)
 
 
+"""
+ROTAZIONE IMG A 90° A DESTRA
+"""
+def ruota_dx(img):
+    altezza = len(img)
+    larghezza = len(img[0])
+    # creo una immagine con altezza e larghezza scambiate
+    img2 = crea_immagine(altezza, larghezza)
+    # per ogni pixel della immagine originale
+    for y, riga in enumerate(img):
+        for x, pixel in enumerate(riga):
+            # calcolo le coordinate della destinazione
+            X = altezza -1 -y
+            Y = x
+            # e copio il pixel
+            img2[Y][X] = pixel
+    # torno l'immagine ruotata
+    return img2
+img_r = ruota_dx(img3)
+#images.visd(img_r)
+
+
 """N.B. Più volte richiamo la funz. e più volte mi ruota l'img di 90°
 Nel seguente modo, richiamando la funzione 3 volte, la foto è ruotata di 90° rispetto alla sua forma normale verticale
 images.visd(ruota_sx(ruota_sx(ruota_sx(img3))))
