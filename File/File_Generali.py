@@ -8,6 +8,7 @@ This is a temporary script file.
 
 """
 FILES 
+    • F = open("text.txt",mode = 'r',encoding = 'utf-8')
     • with open(<filename>, mode=<mode>, encoding='utf8') as F:
      ...
     • F.read() legge tutto il contenuto
