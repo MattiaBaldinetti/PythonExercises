@@ -1,4 +1,4 @@
-COPYRIGHT
+COPYRIGHT 
 =========
 Copyright (C) 2019- Andrea Sterbini <sterbini@di.uniroma1.it>, 
                     Angelo Monti <monti@di.uniroma1.it>, 
