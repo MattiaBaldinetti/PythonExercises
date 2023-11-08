@@ -17,9 +17,9 @@ Per superare l'esame è necessario:
 
 Il voto finale è la somma dei punteggi dei problemi risolti.
 """
-nome       = "MATTIA"
-cognome    = "BALDINETTI"
-matricola  = "1935153"
+nome       = ""
+cognome    = ""
+matricola  = ""
 
 #########################################
 
