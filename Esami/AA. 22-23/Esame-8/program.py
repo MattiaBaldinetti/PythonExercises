@@ -22,9 +22,9 @@ Per testare correttamente la ricorsione è, però, necessario DEBUG=False.
 
 """
 
-nome       = "MATTIA"
-cognome    = "BALDINETTI"
-matricola  = "1935153"
+nome       = ""
+cognome    = ""
+matricola  = ""
 
 
 # %% ----------------------------------- FUNC1 ------------------------- #
